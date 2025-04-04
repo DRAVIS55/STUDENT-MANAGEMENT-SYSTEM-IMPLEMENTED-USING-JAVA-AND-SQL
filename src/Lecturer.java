@@ -1,7 +1,7 @@
 import java.sql.*;
 import java.util.ArrayList;
 
-public class Lecturer {
+public class Lecturer extends Person {
     private Connection connection;
 
     // Constructor to initialize database connection
